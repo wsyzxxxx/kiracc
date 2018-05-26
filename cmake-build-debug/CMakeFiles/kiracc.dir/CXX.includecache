@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lyk/CLionProjects/kiracc/AST/AbstractSyntaxTree.cpp
+iostream
+-
+cstdarg
+-
+AbstractSyntaxTree.h
+/home/lyk/CLionProjects/kiracc/AST/AbstractSyntaxTree.h
+../util.h
+/home/lyk/CLionProjects/kiracc/util.h
+
+/home/lyk/CLionProjects/kiracc/AST/AbstractSyntaxTree.h
+string
+-
+vector
+-
+
+/home/lyk/CLionProjects/kiracc/main.cpp
+iostream
+-
+AST/AbstractSyntaxTree.h
+/home/lyk/CLionProjects/kiracc/AST/AbstractSyntaxTree.h
+
+/home/lyk/CLionProjects/kiracc/util.h
+string
+-
+cstring
+-
+stack
+-
+

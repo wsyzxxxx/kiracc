@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lyk/CLionProjects/kiracc/lex&yacc/lex.yy.c
+stdio.h
+-
+errno.h
+-
+stdlib.h
+-
+unistd.h
+-
+io.h
+-
+stdlib.h
+-
+stdio.h
+-
+y.tab.h
+/home/lyk/CLionProjects/kiracc/lex&yacc/y.tab.h
+stdlib.h
+-
+unistd.h
+-
+
+/home/lyk/CLionProjects/kiracc/lex&yacc/y.tab.c
+alloca.h
+-
+malloc.h
+-
+malloc.h
+-
+stdio.h
+-
+stdio.h
+-
+
+/home/lyk/CLionProjects/kiracc/lex&yacc/y.tab.h
+

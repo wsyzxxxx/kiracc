@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGrammarAnalysis.a  CMakeFiles/GrammarAnalysis.dir/lex.yy.c.o CMakeFiles/GrammarAnalysis.dir/y.tab.c.o
+/usr/bin/ranlib libGrammarAnalysis.a

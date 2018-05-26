@@ -1,0 +1,1 @@
+g++  -g   CMakeFiles/kiracc.dir/main.cpp.o CMakeFiles/kiracc.dir/Grammar/lex.yy.c.o CMakeFiles/kiracc.dir/AST/AbstractSyntaxTree.cpp.o CMakeFiles/kiracc.dir/Grammar/y.tab.c.o  -o kiracc 

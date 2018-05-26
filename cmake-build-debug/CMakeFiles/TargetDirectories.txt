@@ -1,0 +1,3 @@
+/home/lyk/CLionProjects/kiracc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lyk/CLionProjects/kiracc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lyk/CLionProjects/kiracc/cmake-build-debug/CMakeFiles/kiracc.dir
