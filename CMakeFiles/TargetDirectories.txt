@@ -1,0 +1,3 @@
+/Users/MrX/Desktop/kiracc/CMakeFiles/rebuild_cache.dir
+/Users/MrX/Desktop/kiracc/CMakeFiles/edit_cache.dir
+/Users/MrX/Desktop/kiracc/CMakeFiles/kiracc.dir

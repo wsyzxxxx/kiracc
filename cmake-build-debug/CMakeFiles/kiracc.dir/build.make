@@ -153,12 +153,112 @@ CMakeFiles/kiracc.dir/Grammar/y.tab.c.o.provides: CMakeFiles/kiracc.dir/Grammar/
 CMakeFiles/kiracc.dir/Grammar/y.tab.c.o.provides.build: CMakeFiles/kiracc.dir/Grammar/y.tab.c.o
 
 
+CMakeFiles/kiracc.dir/Parser/Parser.cpp.o: CMakeFiles/kiracc.dir/flags.make
+CMakeFiles/kiracc.dir/Parser/Parser.cpp.o: ../Parser/Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/CLionProjects/kiracc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/kiracc.dir/Parser/Parser.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kiracc.dir/Parser/Parser.cpp.o -c /home/lyk/CLionProjects/kiracc/Parser/Parser.cpp
+
+CMakeFiles/kiracc.dir/Parser/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kiracc.dir/Parser/Parser.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyk/CLionProjects/kiracc/Parser/Parser.cpp > CMakeFiles/kiracc.dir/Parser/Parser.cpp.i
+
+CMakeFiles/kiracc.dir/Parser/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kiracc.dir/Parser/Parser.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyk/CLionProjects/kiracc/Parser/Parser.cpp -o CMakeFiles/kiracc.dir/Parser/Parser.cpp.s
+
+CMakeFiles/kiracc.dir/Parser/Parser.cpp.o.requires:
+
+.PHONY : CMakeFiles/kiracc.dir/Parser/Parser.cpp.o.requires
+
+CMakeFiles/kiracc.dir/Parser/Parser.cpp.o.provides: CMakeFiles/kiracc.dir/Parser/Parser.cpp.o.requires
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/Parser/Parser.cpp.o.provides.build
+.PHONY : CMakeFiles/kiracc.dir/Parser/Parser.cpp.o.provides
+
+CMakeFiles/kiracc.dir/Parser/Parser.cpp.o.provides.build: CMakeFiles/kiracc.dir/Parser/Parser.cpp.o
+
+
+CMakeFiles/kiracc.dir/Parser/Block.cpp.o: CMakeFiles/kiracc.dir/flags.make
+CMakeFiles/kiracc.dir/Parser/Block.cpp.o: ../Parser/Block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/CLionProjects/kiracc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/kiracc.dir/Parser/Block.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kiracc.dir/Parser/Block.cpp.o -c /home/lyk/CLionProjects/kiracc/Parser/Block.cpp
+
+CMakeFiles/kiracc.dir/Parser/Block.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kiracc.dir/Parser/Block.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyk/CLionProjects/kiracc/Parser/Block.cpp > CMakeFiles/kiracc.dir/Parser/Block.cpp.i
+
+CMakeFiles/kiracc.dir/Parser/Block.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kiracc.dir/Parser/Block.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyk/CLionProjects/kiracc/Parser/Block.cpp -o CMakeFiles/kiracc.dir/Parser/Block.cpp.s
+
+CMakeFiles/kiracc.dir/Parser/Block.cpp.o.requires:
+
+.PHONY : CMakeFiles/kiracc.dir/Parser/Block.cpp.o.requires
+
+CMakeFiles/kiracc.dir/Parser/Block.cpp.o.provides: CMakeFiles/kiracc.dir/Parser/Block.cpp.o.requires
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/Parser/Block.cpp.o.provides.build
+.PHONY : CMakeFiles/kiracc.dir/Parser/Block.cpp.o.provides
+
+CMakeFiles/kiracc.dir/Parser/Block.cpp.o.provides.build: CMakeFiles/kiracc.dir/Parser/Block.cpp.o
+
+
+CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o: CMakeFiles/kiracc.dir/flags.make
+CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o: ../IRCode/IRCode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/CLionProjects/kiracc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o -c /home/lyk/CLionProjects/kiracc/IRCode/IRCode.cpp
+
+CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyk/CLionProjects/kiracc/IRCode/IRCode.cpp > CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.i
+
+CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyk/CLionProjects/kiracc/IRCode/IRCode.cpp -o CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.s
+
+CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o.requires:
+
+.PHONY : CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o.requires
+
+CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o.provides: CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o.provides.build
+.PHONY : CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o.provides
+
+CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o.provides.build: CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o
+
+
+CMakeFiles/kiracc.dir/util.cpp.o: CMakeFiles/kiracc.dir/flags.make
+CMakeFiles/kiracc.dir/util.cpp.o: ../util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/CLionProjects/kiracc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/kiracc.dir/util.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kiracc.dir/util.cpp.o -c /home/lyk/CLionProjects/kiracc/util.cpp
+
+CMakeFiles/kiracc.dir/util.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kiracc.dir/util.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyk/CLionProjects/kiracc/util.cpp > CMakeFiles/kiracc.dir/util.cpp.i
+
+CMakeFiles/kiracc.dir/util.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kiracc.dir/util.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyk/CLionProjects/kiracc/util.cpp -o CMakeFiles/kiracc.dir/util.cpp.s
+
+CMakeFiles/kiracc.dir/util.cpp.o.requires:
+
+.PHONY : CMakeFiles/kiracc.dir/util.cpp.o.requires
+
+CMakeFiles/kiracc.dir/util.cpp.o.provides: CMakeFiles/kiracc.dir/util.cpp.o.requires
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/util.cpp.o.provides.build
+.PHONY : CMakeFiles/kiracc.dir/util.cpp.o.provides
+
+CMakeFiles/kiracc.dir/util.cpp.o.provides.build: CMakeFiles/kiracc.dir/util.cpp.o
+
+
 # Object files for target kiracc
 kiracc_OBJECTS = \
 "CMakeFiles/kiracc.dir/main.cpp.o" \
 "CMakeFiles/kiracc.dir/Grammar/lex.yy.c.o" \
 "CMakeFiles/kiracc.dir/AST/AbstractSyntaxTree.cpp.o" \
-"CMakeFiles/kiracc.dir/Grammar/y.tab.c.o"
+"CMakeFiles/kiracc.dir/Grammar/y.tab.c.o" \
+"CMakeFiles/kiracc.dir/Parser/Parser.cpp.o" \
+"CMakeFiles/kiracc.dir/Parser/Block.cpp.o" \
+"CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o" \
+"CMakeFiles/kiracc.dir/util.cpp.o"
 
 # External object files for target kiracc
 kiracc_EXTERNAL_OBJECTS =
@@ -167,9 +267,13 @@ kiracc: CMakeFiles/kiracc.dir/main.cpp.o
 kiracc: CMakeFiles/kiracc.dir/Grammar/lex.yy.c.o
 kiracc: CMakeFiles/kiracc.dir/AST/AbstractSyntaxTree.cpp.o
 kiracc: CMakeFiles/kiracc.dir/Grammar/y.tab.c.o
+kiracc: CMakeFiles/kiracc.dir/Parser/Parser.cpp.o
+kiracc: CMakeFiles/kiracc.dir/Parser/Block.cpp.o
+kiracc: CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o
+kiracc: CMakeFiles/kiracc.dir/util.cpp.o
 kiracc: CMakeFiles/kiracc.dir/build.make
 kiracc: CMakeFiles/kiracc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lyk/CLionProjects/kiracc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable kiracc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lyk/CLionProjects/kiracc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable kiracc"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kiracc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,6 +285,10 @@ CMakeFiles/kiracc.dir/requires: CMakeFiles/kiracc.dir/main.cpp.o.requires
 CMakeFiles/kiracc.dir/requires: CMakeFiles/kiracc.dir/Grammar/lex.yy.c.o.requires
 CMakeFiles/kiracc.dir/requires: CMakeFiles/kiracc.dir/AST/AbstractSyntaxTree.cpp.o.requires
 CMakeFiles/kiracc.dir/requires: CMakeFiles/kiracc.dir/Grammar/y.tab.c.o.requires
+CMakeFiles/kiracc.dir/requires: CMakeFiles/kiracc.dir/Parser/Parser.cpp.o.requires
+CMakeFiles/kiracc.dir/requires: CMakeFiles/kiracc.dir/Parser/Block.cpp.o.requires
+CMakeFiles/kiracc.dir/requires: CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o.requires
+CMakeFiles/kiracc.dir/requires: CMakeFiles/kiracc.dir/util.cpp.o.requires
 
 .PHONY : CMakeFiles/kiracc.dir/requires
 

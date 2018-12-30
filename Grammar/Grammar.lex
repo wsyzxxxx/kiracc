@@ -34,7 +34,6 @@ extern void yyerror(const char *);  /* prints grammar violation message */
 //extern int sym_type(const char *);  /* returns type from symbol table */
 
 #define sym_type(identifier) IDENTIFIER /* with no symbol table, fake it */
-
 static void comment(void);
 static int check_type(void);
 static void count(void);
@@ -174,6 +173,7 @@ WS  [ \t\v\n\f]
 
 int yywrap(void)        /* called at end of input */
 {
+    {BEGIN INITIAL;}
     return 1;           /* terminate now */
 }
 
@@ -201,7 +201,7 @@ void count(void)
 			column += 4 - (column % 4);
 		else
 			column++;
-	ECHO;
+	//ECHO;
 }
 static int check_type(void)
 {

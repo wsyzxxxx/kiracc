@@ -180,7 +180,7 @@ extern int yydebug;
 
 union YYSTYPE
 {
-#line 50 "YaccGrammar.y" /* yacc.c:1909  */
+#line 52 "YaccGrammar.y" /* yacc.c:1909  */
 
     AbstractSyntaxTree ast;
 

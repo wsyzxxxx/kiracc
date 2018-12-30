@@ -204,6 +204,87 @@ Grammar/y.tab.c.s:
 	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/Grammar/y.tab.c.s
 .PHONY : Grammar/y.tab.c.s
 
+IRCode/IRCode.o: IRCode/IRCode.cpp.o
+
+.PHONY : IRCode/IRCode.o
+
+# target to build an object file
+IRCode/IRCode.cpp.o:
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o
+.PHONY : IRCode/IRCode.cpp.o
+
+IRCode/IRCode.i: IRCode/IRCode.cpp.i
+
+.PHONY : IRCode/IRCode.i
+
+# target to preprocess a source file
+IRCode/IRCode.cpp.i:
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.i
+.PHONY : IRCode/IRCode.cpp.i
+
+IRCode/IRCode.s: IRCode/IRCode.cpp.s
+
+.PHONY : IRCode/IRCode.s
+
+# target to generate assembly for a file
+IRCode/IRCode.cpp.s:
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.s
+.PHONY : IRCode/IRCode.cpp.s
+
+Parser/Block.o: Parser/Block.cpp.o
+
+.PHONY : Parser/Block.o
+
+# target to build an object file
+Parser/Block.cpp.o:
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/Parser/Block.cpp.o
+.PHONY : Parser/Block.cpp.o
+
+Parser/Block.i: Parser/Block.cpp.i
+
+.PHONY : Parser/Block.i
+
+# target to preprocess a source file
+Parser/Block.cpp.i:
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/Parser/Block.cpp.i
+.PHONY : Parser/Block.cpp.i
+
+Parser/Block.s: Parser/Block.cpp.s
+
+.PHONY : Parser/Block.s
+
+# target to generate assembly for a file
+Parser/Block.cpp.s:
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/Parser/Block.cpp.s
+.PHONY : Parser/Block.cpp.s
+
+Parser/Parser.o: Parser/Parser.cpp.o
+
+.PHONY : Parser/Parser.o
+
+# target to build an object file
+Parser/Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/Parser/Parser.cpp.o
+.PHONY : Parser/Parser.cpp.o
+
+Parser/Parser.i: Parser/Parser.cpp.i
+
+.PHONY : Parser/Parser.i
+
+# target to preprocess a source file
+Parser/Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/Parser/Parser.cpp.i
+.PHONY : Parser/Parser.cpp.i
+
+Parser/Parser.s: Parser/Parser.cpp.s
+
+.PHONY : Parser/Parser.s
+
+# target to generate assembly for a file
+Parser/Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/Parser/Parser.cpp.s
+.PHONY : Parser/Parser.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -231,6 +312,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+util.o: util.cpp.o
+
+.PHONY : util.o
+
+# target to build an object file
+util.cpp.o:
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/util.cpp.o
+.PHONY : util.cpp.o
+
+util.i: util.cpp.i
+
+.PHONY : util.i
+
+# target to preprocess a source file
+util.cpp.i:
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/util.cpp.i
+.PHONY : util.cpp.i
+
+util.s: util.cpp.s
+
+.PHONY : util.s
+
+# target to generate assembly for a file
+util.cpp.s:
+	$(MAKE) -f CMakeFiles/kiracc.dir/build.make CMakeFiles/kiracc.dir/util.cpp.s
+.PHONY : util.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,9 +357,21 @@ help:
 	@echo "... Grammar/y.tab.o"
 	@echo "... Grammar/y.tab.i"
 	@echo "... Grammar/y.tab.s"
+	@echo "... IRCode/IRCode.o"
+	@echo "... IRCode/IRCode.i"
+	@echo "... IRCode/IRCode.s"
+	@echo "... Parser/Block.o"
+	@echo "... Parser/Block.i"
+	@echo "... Parser/Block.s"
+	@echo "... Parser/Parser.o"
+	@echo "... Parser/Parser.i"
+	@echo "... Parser/Parser.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... util.o"
+	@echo "... util.i"
+	@echo "... util.s"
 .PHONY : help
 
 

@@ -31,19 +31,21 @@ using namespace std;
 /* #include "symtab.h" */
 
 #define YYDEBUG 1
-
 extern char *yytext;
 extern int column;
 extern FILE * yyin;
 extern FILE * yyout;
 extern int yylineno;
+extern int errorState;
 int yylex(void);
+
 AbstractSyntaxTree root = NULL;
 
 void yyerror(const char *s)
 {
+    errorState = 1;
 	fflush(stdout);
-	fprintf(stderr, "*** %s\n", s);
+	fprintf(stderr, "*** %s at line: %d\n", s, yylineno);
 }
 %}
 
@@ -150,16 +152,16 @@ postfix_expression
 	    //...
 	    $$ = createTree("postfix_expression", 4, $1, $2, $3, $4);
 	}
-	| postfix_expression '.' IDENTIFIER
-	{
-	    // point.x
-	    $$ = createTree("postfix_expression", 2, $1, $3);
-	}
-	| postfix_expression PTR_OP IDENTIFIER
-	{
-	    // point->x
-        $$ = createTree("postfix_expression", 3, $1, $2, $3);
-	}
+	// | postfix_expression '.' IDENTIFIER
+	// {
+	//     // point.x
+	//     $$ = createTree("postfix_expression", 2, $1, $3);
+	// }
+	// | postfix_expression PTR_OP IDENTIFIER
+	// {
+	//     // point->x
+    //     $$ = createTree("postfix_expression", 3, $1, $2, $3);
+	// }
 	| postfix_expression INC_OP
 	{
 	    //i++
@@ -170,20 +172,21 @@ postfix_expression
 	    //i--
         $$ = createTree("postfix_expression", 2, $1, $2);
 	}
-	| '(' type_name ')' '{' initializer_list '}'
-	{
-	    $$ = createTree("postfix_expression", 2, $2, $5);
-	}
-	| '(' type_name ')' '{' initializer_list ',' '}'
-	{
-	    $$ = createTree("postfix_expression", 2, $2, $5);
-	}
 	;
+	// | '(' type_name ')' '{' initializer_list '}'
+	// {
+	//     $$ = createTree("postfix_expression", 2, $2, $5);
+	// }
+	// | '(' type_name ')' '{' initializer_list ',' '}'
+	// {
+	//     $$ = createTree("postfix_expression", 2, $2, $5);
+	// }
+	// ;
 
 argument_expression_list
 	: assignment_expression
 	{
-	    $$ = createTree("assignment_expression", 1, $1);
+	    $$ = createTree("argument_expression_list", 1, $1);
 	}
 	| argument_expression_list ',' assignment_expression
 	{
@@ -205,19 +208,19 @@ unary_expression
 	{
 	    $$ = createTree("unary_expression", 2, $1, $2);
 	}
-	| unary_operator cast_expression
+	| unary_operator unary_expression
 	{
 	    $$ = createTree("unary_expression", 2, $1, $2);
 	}
-	| SIZEOF unary_expression
-	{
-	    $$ = createTree("unary_expression", 2, $1, $2);
-	}
-	| SIZEOF '(' type_name ')'
-	{
-	    $$ = createTree("unary_expression", 2, $1, $3);
-	}
-	;
+	// | SIZEOF unary_expression
+	// {
+	//     $$ = createTree("unary_expression", 2, $1, $2);
+	// }
+	// | SIZEOF '(' type_name ')'
+	// {
+	//     $$ = createTree("unary_expression", 2, $1, $3);
+	// }
+	// ;
 
 unary_operator
 	: '&'
@@ -1149,6 +1152,10 @@ statement
 	{
 	    $$ = createTree("statement", 1, $1);
 	}
+	| error
+    {
+    	yyerrok;
+    }
 	;
 
 labeled_statement
@@ -1171,7 +1178,7 @@ compound_statement
 	{
 	    $$ = createTree("compound_statement", 0, $1->line);
 	}
-	| '{'  block_item_list '}'
+	| '{' block_item_list '}'
 	{
 	    $$ = createTree("compound_statement", 1, $2);
 	}
@@ -1312,6 +1319,7 @@ function_definition
 	     *      int *a, *b;
 	     *      max(a, b);
 	     * is OK
+	     * not support
 	     */
 	    $$ = createTree("function_definition", 4, $1, $2, $3, $4);
 	}

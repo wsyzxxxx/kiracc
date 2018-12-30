@@ -15,7 +15,11 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lyk/CLionProjects/kiracc/AST/AbstractSyntaxTree.cpp" "/home/lyk/CLionProjects/kiracc/cmake-build-debug/CMakeFiles/kiracc.dir/AST/AbstractSyntaxTree.cpp.o"
+  "/home/lyk/CLionProjects/kiracc/IRCode/IRCode.cpp" "/home/lyk/CLionProjects/kiracc/cmake-build-debug/CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o"
+  "/home/lyk/CLionProjects/kiracc/Parser/Block.cpp" "/home/lyk/CLionProjects/kiracc/cmake-build-debug/CMakeFiles/kiracc.dir/Parser/Block.cpp.o"
+  "/home/lyk/CLionProjects/kiracc/Parser/Parser.cpp" "/home/lyk/CLionProjects/kiracc/cmake-build-debug/CMakeFiles/kiracc.dir/Parser/Parser.cpp.o"
   "/home/lyk/CLionProjects/kiracc/main.cpp" "/home/lyk/CLionProjects/kiracc/cmake-build-debug/CMakeFiles/kiracc.dir/main.cpp.o"
+  "/home/lyk/CLionProjects/kiracc/util.cpp" "/home/lyk/CLionProjects/kiracc/cmake-build-debug/CMakeFiles/kiracc.dir/util.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

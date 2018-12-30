@@ -1,24 +1,23 @@
 //
 // Created by lyk on 18-5-18.
 //
-
 #ifndef KIRACC_ABSTRACTSYNTAXTREE_H
 #define KIRACC_ABSTRACTSYNTAXTREE_H
+
 #include <string>
 #include <vector>
-
 extern char *yytext;
 extern int yylineno;
 
-struct AbstractSyntaxNode{
+struct AbstractSyntaxNode {
     typedef AbstractSyntaxNode* AbstractSyntaxTree;
     std::string content;
     std::string name;
     int line;
     std::vector<AbstractSyntaxTree> sibling;
 };
-
 typedef AbstractSyntaxNode* AbstractSyntaxTree;
+
 
 
 extern AbstractSyntaxTree root;

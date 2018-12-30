@@ -9,7 +9,7 @@
 AbstractSyntaxTree createTree(const std::string &name, int subTreeNum, ...) {
     AbstractSyntaxTree treeNode = new(std::nothrow) AbstractSyntaxNode();
     if(treeNode == nullptr){
-        std::cerr << "out of memofy." << std::endl;
+        std::cerr << "out of memory." << std::endl;
         exit(0);
     }
 #ifdef DEBUG
@@ -39,6 +39,7 @@ AbstractSyntaxTree createTree(const std::string &name, int subTreeNum, ...) {
         if(treeNode->name == "I_CONSTANT"){
             int val;
             if(isOct(yytext)){
+
                 sscanf(yytext, "%o", &val);
             }else if(isHex(yytext)){
                 sscanf(yytext, "%x", &val);

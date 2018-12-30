@@ -13,6 +13,29 @@ CMakeFiles/kiracc.dir/AST/AbstractSyntaxTree.cpp.o
  /home/lyk/CLionProjects/kiracc/AST/AbstractSyntaxTree.cpp
  /home/lyk/CLionProjects/kiracc/AST/AbstractSyntaxTree.h
  /home/lyk/CLionProjects/kiracc/util.h
+CMakeFiles/kiracc.dir/IRCode/IRCode.cpp.o
+ /home/lyk/CLionProjects/kiracc/AST/AbstractSyntaxTree.h
+ /home/lyk/CLionProjects/kiracc/IRCode/IRCode.cpp
+ /home/lyk/CLionProjects/kiracc/IRCode/IRCode.h
+ /home/lyk/CLionProjects/kiracc/Parser/Block.h
+ /home/lyk/CLionProjects/kiracc/util.h
+CMakeFiles/kiracc.dir/Parser/Block.cpp.o
+ /home/lyk/CLionProjects/kiracc/Parser/Block.cpp
+ /home/lyk/CLionProjects/kiracc/Parser/Block.h
+CMakeFiles/kiracc.dir/Parser/Parser.cpp.o
+ /home/lyk/CLionProjects/kiracc/AST/AbstractSyntaxTree.h
+ /home/lyk/CLionProjects/kiracc/IRCode/IRCode.h
+ /home/lyk/CLionProjects/kiracc/Parser/Block.h
+ /home/lyk/CLionProjects/kiracc/Parser/Parser.cpp
+ /home/lyk/CLionProjects/kiracc/Parser/Parser.h
+ /home/lyk/CLionProjects/kiracc/util.h
 CMakeFiles/kiracc.dir/main.cpp.o
  /home/lyk/CLionProjects/kiracc/AST/AbstractSyntaxTree.h
+ /home/lyk/CLionProjects/kiracc/IRCode/IRCode.h
+ /home/lyk/CLionProjects/kiracc/Parser/Block.h
+ /home/lyk/CLionProjects/kiracc/Parser/Parser.h
  /home/lyk/CLionProjects/kiracc/main.cpp
+CMakeFiles/kiracc.dir/util.cpp.o
+ /home/lyk/CLionProjects/kiracc/AST/AbstractSyntaxTree.h
+ /home/lyk/CLionProjects/kiracc/util.cpp
+ /home/lyk/CLionProjects/kiracc/util.h

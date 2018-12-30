@@ -99,7 +99,28 @@
 		<Unit filename="/home/lyk/CLionProjects/kiracc/Grammar/y.tab.h">
 			<Option target="kiracc"/>
 		</Unit>
+		<Unit filename="/home/lyk/CLionProjects/kiracc/IRCode/IRCode.cpp">
+			<Option target="kiracc"/>
+		</Unit>
+		<Unit filename="/home/lyk/CLionProjects/kiracc/IRCode/IRCode.h">
+			<Option target="kiracc"/>
+		</Unit>
+		<Unit filename="/home/lyk/CLionProjects/kiracc/Parser/Block.cpp">
+			<Option target="kiracc"/>
+		</Unit>
+		<Unit filename="/home/lyk/CLionProjects/kiracc/Parser/Block.h">
+			<Option target="kiracc"/>
+		</Unit>
+		<Unit filename="/home/lyk/CLionProjects/kiracc/Parser/Parser.cpp">
+			<Option target="kiracc"/>
+		</Unit>
+		<Unit filename="/home/lyk/CLionProjects/kiracc/Parser/Parser.h">
+			<Option target="kiracc"/>
+		</Unit>
 		<Unit filename="/home/lyk/CLionProjects/kiracc/main.cpp">
+			<Option target="kiracc"/>
+		</Unit>
+		<Unit filename="/home/lyk/CLionProjects/kiracc/util.cpp">
 			<Option target="kiracc"/>
 		</Unit>
 		<Unit filename="/home/lyk/CLionProjects/kiracc/util.h">
