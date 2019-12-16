@@ -1,9 +1,9 @@
-###源文件运行方式
-    1. 使用cmake生成Makefile
-    2. 执行Makefile
-    3. 执行kiracc输入文件test.c/test2.c/test3.c
+### To run the program
+1. use cmake to generate Makefile
+2. make
+3. run ./kiracc with the input file test.c/test2.c/test3.c
 
-#####或直接使用以下命令
+### By the following commands
 ```
     cmake ./
     make
